@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Clase 3 Actividad</title>
+      <!--FONT AWESOME ICONS-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Formulario de Suscripcion</h1>
+    <form>
+        <label for="id-suscriptor">ID Paciente:</label><br>
+        <input type="text" id="id-paciente" name="id-paciente" value="1" readonly><br>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" minlength="1" maxlength="15" required><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" minlength="1" maxlength="15"><br>
+        <label for="edad">Fecha de nacimiento:</label><br>
+        <input type="date" id="edad" name="edad"><br>
+        <label for="email">Email:</label><br> 
+        <input type="email" id="email" name="email" required><br>
+        <label for="contra">Contraseña:</label><br>
+        <input type="text" id="contra" name="contra" minlength="8" required><br>
+
+        <p>Desea recibir noticias por mail?</p>
+        <input type="radio" id="si" name="notificacion" value="si">
+        <label for="si">Sí</label><br>
+        <input type="radio" id="no" name="notificacion" value="no">
+        <label for="no">No</label><br>
+
+        <br>
+        <input type="submit" value="Suscribirme">
+        <input type="reset" value="Resetear">
+    </form>
+  </body>
