@@ -1,0 +1,1 @@
+Hacer click en Suscribirse para entrar a la página con el form
